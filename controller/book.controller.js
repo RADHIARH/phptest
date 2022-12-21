@@ -1,10 +1,10 @@
 const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = new Sequelize(
-  "node_mysql_crud_db",
-  "root",
-  "reactjs!nodejs$ingenieurinformatique",
+  "sql9585874",
+  "sql9585874",
+  "edD9SdHpnU",
   {
-    host: "127.0.0.1",
+    host: "sql9.freesqldatabase.com",
     dialect: "mysql",
     dialectModule: require("mysql2"),
   }
