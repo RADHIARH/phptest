@@ -1,0 +1,21 @@
+{
+    "version":2,
+    "builds": [
+      {
+        "src": "./index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.11.0"
+  },
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
+  }
