@@ -6,6 +6,7 @@ const sequelize = new Sequelize(
   {
     host: "localhost",
     dialect: "mysql",
+    dialectModule: "mysql2",
   }
 );
 
